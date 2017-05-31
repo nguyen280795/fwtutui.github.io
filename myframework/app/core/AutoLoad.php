@@ -51,7 +51,7 @@ class AutoLoad
             'app/routers.php',
             'app/libs/Log.php',
             'app/libs/Session.php',
-            'app/libs/SessionDB.php'
+//            'app/libs/SessionDB.php'
         ];
     }
 }
