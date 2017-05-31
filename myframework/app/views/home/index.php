@@ -1,3 +1,3 @@
 <title>Home</title>
 
-<h1>Page Home</h1>
+<?php $this->renderPartial('index'); ?>

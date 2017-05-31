@@ -13,7 +13,7 @@ class LoginModel extends Model
 
     public function run()
     {
-        $sth = $this->db->prepare("SELECT id FROM users WHERE login = :login AND password = MD5(:password)");
+        $sth = $this->db->prepare(sprintf(addslashes ("SELECT id FROM users WHERE login = :login AND password = MD5(:password)")));
         $sth->execute(array(
             ':login' => $_POST['username'],
             ':password' => $_POST['password']

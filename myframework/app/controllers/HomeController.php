@@ -17,7 +17,6 @@ class HomeController extends Controller
 
     public function home()
     {
-//        $this->render('index');
-        $this->renderPartial('index');
+        $this->render('index');
     }
 }

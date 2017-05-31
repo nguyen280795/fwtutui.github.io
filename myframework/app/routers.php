@@ -11,6 +11,9 @@ Router::get('/logout','LoginController@logout');
 
 Router::get('/dashboard','DashboardController@dashboard');
 
+Router::get('/signup','SignUpController@index');
+Router::post('/dangky','SignUpController@run');
+
 Router::any('*', function () {
     echo '404 not found';
 });

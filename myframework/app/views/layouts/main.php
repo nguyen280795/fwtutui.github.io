@@ -13,6 +13,7 @@
     <a href="home">Home</a>
     <a href="about">About</a>
     <a href="login">Login</a>
+    <a href="signup">Sign Up</a>
 
 </div>
 
